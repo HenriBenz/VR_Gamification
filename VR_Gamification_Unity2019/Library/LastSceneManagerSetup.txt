@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/SampleScene.unity
+- path: Assets/XR_Scenes Gamification/01_Scene_Mars_Explorer.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
