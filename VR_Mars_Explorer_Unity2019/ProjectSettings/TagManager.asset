@@ -3,7 +3,18 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - ChaseCamera
+  - GameManager
+  - AR_Camera
+  - AR_LocalPosition
+  - AR_Anchor
+  - AR_Plane
+  - AR_LocalPositionHandL
+  - AR_LocalPositionHandR
+  - AR_HandL
+  - AR_HandR
+  - TheRobot
   layers:
   - Default
   - TransparentFX
@@ -13,7 +24,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - PostProcessing
   - 
   - 
   - 
