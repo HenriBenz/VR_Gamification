@@ -1,2 +1,2 @@
-# VR_Mars_Explorer
+# VR_Gamification
 MRAC Term III Workshop - Gamification of Fabrication Processes
