@@ -36,10 +36,12 @@ public class InteractionController : MonoBehaviour
     public GameObject objectToBecomeParent;
 
     private SpawnParticleSystem particleController;
+    private FollowPath targetController;
 
     private void Start()
     {
         particleController = GameObject.FindObjectOfType<SpawnParticleSystem>();
+        targetController = GameObject.FindObjectOfType<FollowPath>();
         if (myType == InteractionType.OnOffController)
         {
             OnOff(false, true);
@@ -158,6 +160,7 @@ public class InteractionController : MonoBehaviour
                 OnOff(false, true);
             }
             particleController.ActivateCurrentParticles();
+            targetController.MoveTheTarget();
         }
 
         else if (myType == InteractionType.MakeCameraChild)
